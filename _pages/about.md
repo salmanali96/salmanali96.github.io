@@ -60,6 +60,4 @@ I completed my bachelor’s in computer science (BSc) from National University o
 
 My research focuses on image compression and 3D Gaussian Splatting compression. I have published over [20 papers](https://scholar.google.com/citations?user=qbreZUIAAAAJ&hl=en), including in top venues like NeurIPS, ICCV, BMVC, WACV, and about 7 SCIE-indexed journals.
 
-
 Outside of research, I’m an avid cricket enthusiast and a passionate student of history.
-
