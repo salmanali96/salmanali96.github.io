@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Accepted Papers
-date: 2024-07-10 16:11:00-0400
+title: Arxiv
+date: 2025-05-20 16:11:00-0400
 inline: true
 selected: true
 ---
 
-Four papers accepted to ECCV, MICCAI, ICASSP and SIVP. Congratulations to the co-authors.
-
+Our paper Iterative-INR is now available on [arxiv](https://arxiv.org/abs/2504.17364).

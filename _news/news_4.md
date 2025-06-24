@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2018-11-01 15:59:00-0400
+date: 2021-12-01 15:59:00-0400
 inline: true
-selected: false
+selected: true
 ---
 
-[Paper](https://awaisrauf.github.io/xray-denoising) accepted in NIPS 2018 workshop on ML4H.
+One paper accepted in [ICCV](https://openaccess.thecvf.com/content/ICCV2021/html/Kim_Distilling_Global_and_Local_Logits_With_Densely_Connected_Relations_ICCV_2021_paper.html), 3 Papers accepted in IEEE Access and Journal of Broadcasting.

@@ -4,201 +4,99 @@
 @string{aps = {American Physical Society,}}
 
 
-@article{Awais.arXiv24,
-  abbr     = {TPAMI},
-  title    = {Foundational Models Defining a New Era in Vision: A Survey and Outlook},
-  author   = {Awais, Muhammad and Muzammal, Naseer and Salman Khan and Rao Anwer and Hisham Cholakkal and Mubarak Shah and Ming-Hsuan Yang and Fahad Shahbaz Khan},
-  journal  = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  year     = {2024},
-  month    = {Nov},
-  selected = {true},
-  pdf={https://arxiv.org/pdf/2307.13721.pdf},
-  code={https://github.com/awaisrauf/Awesome-CV-Foundational-Models},
-  preview={tpami23_preview.png},
-  tags={multi-modal learning}
-}
 
-@article{Awais.arXiv,
+
+@article{haider2025inr,
   abbr     = {arXiv},
-  title    = {Leveraging Pre-trained Models for Efficient Cross-task Robustness Transfer for Object Detection},
-  author   = {Awais, Muhammad and Weiming, Zhuang and Lingjuan, Lyu and Sung-Ho, Bae},
+  title    ={I-INR: Iterative Implicit Neural Representations},
+  author   ={Haider, Ali* and Ali, Muhammad Salman* and Qamar, Maryam and Khalil, Tahir and Kim, Soo Ye and Oh, Jihyong and Tartaglione, Enzo and Bae, Sung-Ho},
+  journal  ={Under Review (arXiv)},
+  selected = {true},
+  preview  ={i-inr.png},
+  pdf      ={https://arxiv.org/abs/2504.17364},
+  year     ={2025},
+  abstract = {Implicit Neural Representations (INRs) have revolutionized signal processing and computer vision by modeling signals as continuous, differentiable functions parameterized by neural networks. However, their inherent formulation as a regression problem makes them prone to regression to the mean, limiting their ability to capture fine details, retain high-frequency information, and handle noise effectively. To address these challenges, we propose Iterative Implicit Neural Representations (I-INRs) a novel plug-and-play framework that enhances signal reconstruction through an iterative refinement process. I-INRs effectively recover high-frequency details, improve robustness to noise, and achieve superior reconstruction quality. Our framework seamlessly integrates with existing INR architectures, delivering substantial performance gains across various tasks. Extensive experiments show that I-INRs outperform baseline methods, including WIRE, SIREN, and Gauss, in diverse computer vision applications such as image restoration, image denoising, and object occupancy prediction.}
+}
+
+@article{ali2025compression,
+  abbr     = {arXiv},
+  title={Compression in 3d gaussian splatting: A survey of methods, trends, and future directions},
+  author={Muhammad Salman Ali and Zhang, Chaoning and Cagnazzo, Marco and Valenzise, Giuseppe and Tartaglione, Enzo and Bae, Sung-Ho},
   journal  = {Under Review (arXiv)},
-  year     = {2024},
-  month    = {March},
+  year={2025},
   selected = {true},
-  preview={frod.png},
-  pdf={https://arxiv.org/pdf/2308.01888},
-  abstract={Object detection is an important task in computer vision and plays an essential role in many security-critical systems. Despite significant recent advancements, state-of-the-art object detection models remain vulnerable to small adversarial perturbations, which malicious actors can exploit to manipulate the model’s output. Unlike classification, the robustness of object detection models has received relatively limited attention, with most existing work focusing on adapting adversarial training. In this paper, we take a different approach, leveraging classification-based robust models to enhance the robustness of object detection. However, directly incorporating a classification-based robust backbone into object detection training can result in catastrophic forgetting of robust features. To address this issue, we propose efficient modifications to the robust backbone, enabling adversarial robustness with standard training. Additionally, we introduce a theoretically grounded, efficient two-phase training strategy that achieves state-of-the-art robustness. Our method first trains on normal examples while preserving robust features in the backbone, followed by adversarial training on single-step adversarial examples in the final stages of training. Our approach achieves state-of-the-art robustness and significantly improves efficiency compared to traditional adversarial training methods. Extensive experiments on the MS-COCO and Pascal VOC datasets validate the effectiveness of our proposed approach.}
+  preview={3dgs_survey.png},
+  pdf={https://arxiv.org/abs/2502.19457},
+  abstract={3D Gaussian Splatting (3DGS) has recently emerged as a pioneering approach in explicit scene rendering and computer graphics. Unlike traditional neural radiance field (NeRF) methods, which typically rely on implicit, coordinate-based models to map spatial coordinates to pixel values, 3DGS utilizes millions of learnable 3D Gaussians. Its differentiable rendering technique and inherent capability for explicit scene representation and manipulation positions 3DGS as a potential game-changer for the next generation of 3D reconstruction and representation technologies. This enables 3DGS to deliver real-time rendering speeds while offering unparalleled editability levels. However, despite its advantages, 3DGS suffers from substantial memory and storage requirements, posing challenges for deployment on resource-constrained devices. In this survey, we provide a comprehensive overview focusing on the scalability and compression of 3DGS. We begin with a detailed background overview of 3DGS, followed by a structured taxonomy of existing compression methods. Additionally, we analyze and compare current methods from the topological perspective, evaluating their strengths and limitations in terms of fidelity, compression ratios, and computational efficiency. Furthermore, we explore how advancements in efficient NeRF representations can inspire future developments in 3DGS optimization. Finally, we conclude with current research challenges and highlight key directions for future exploration.}
+
 }
 
-@article{Kumar.eccv24,
-  abbr = {ECCV},
-  title={Efficient 3D-Aware Facial Image Editing via Attribute-Specific Prompt Learning},
-  author={Kumar, Amandeep* and Awais, Muhammad* and Narayan, Sanath and Cholakkal, Hisham and Khan, Salman and Anwer, Rao},
-  journal={European Conference on Computer Vision},
-  pages={124--141},
-  year={2024},
-  organization={Springer},
-  selected = {true},
-  preview={eccv24.png},
-  slides={https://docs.google.com/presentation/d/11075T-pBxNIbvKGALQkKaRAQpNtmYbp82qx6zvAvu8g/edit#slide=id.g2d37125c826_1_15},
-  html={https://awaisrauf.github.io/3d_face_editing}
-}
-
-@article{hanif2024baple,
-  abbr = {MICCAI},
-  title={BAPLe: Backdoor Attacks on Medical Foundational Models using Prompt Learning},
-  author={Hanif, Asif and Shamshad, Fahad and Awais, Muhammad and Naseer, Muzammal and Khan, Fahad Shahbaz and Nandakumar, Karthik and Khan, Salman and Anwer, Rao},
-  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
-  pages={443--453},
-  year={2024},
-  organization={Springer},
-  preview={miccai24.png},
-  pdf={https://papers.miccai.org/miccai-2024/paper/3117_paper.pdf},
-  html={https://asif-hanif.github.io/baple/},
-  code={https://github.com/asif-hanif/baple},
-  selected = {true},
-  abstract = {Medical foundation models are gaining prominence in the medical community for their ability to derive general representations from extensive collections of medical image-text pairs. Recent research indicates that these models are susceptible to backdoor attacks, which allow them to classify clean images accurately but fail when specific triggers are introduced. However, traditional backdoor attacks necessitate a considerable amount of additional data to maliciously pre-train a model. This requirement is often impractical in medical imaging applications due to the usual scarcity of data. Inspired by the latest developments in learnable prompts, this work introduces a method to embed a backdoor into the medical foundation model during the prompt learning phase. By incorporating learnable prompts within the text encoder and introducing imperceptible learnable noise trigger to the input images, we exploit the full capabilities of the medical foundation models (Med-FM). Our method, BAPLe, requires only a minimal subset of data to adjust the noise trigger and the text prompts for downstream tasks, enabling the creation of an effective backdoor attack. Through extensive experiments with four medical foundation models, each pre-trained on different modalities and evaluated across six downstream datasets, we demonstrate the efficacy of our approach. BAPLe achieves a high backdoor success rate across all models and datasets, outperforming the baseline backdoor attack methods. Our work highlights the vulnerability of Med-FMs towards backdoor attacks and strives to promote the safe adoption of Med-FMs before their deployment in real-world applications. We believe that our work will help the medical community understand the potential risks associated with deploying Med-FMs and encourage the development of robust and secure models.}}
-
-@article{Awais.NeurIPS22,
-  abbr     = {NeurIPS},
-  title    = {ZooD: Exploiting model zoo for out-of-distribution generalization},
-  author   = {Qishi, Dong* and Awais, Muhammad* and Fengwei Zhou and Chuanlong Xie and Tianyang Hu and Yongxin Yang and Sung-Ho, Bae and Zhenguo Li},
-  journal  = {Conference on Neural Information Processing Systems (NeurIPS)},
-  year     = {2022},
-  month    = {September},
-  selected = {true},
-  pdf={https://proceedings.neurips.cc/paper_files/paper/2022/file/cd305fdee96836d5cc1de94577d71b61-Paper-Conference.pdf},
-  preview={ZooD.png},
-  video={https://slideslive.com/38991232/zood-exploiting-model-zoo-for-outofdistribution-generalization?ref=speaker-66115}
-}
-
-@article{Awais.agroGPT,
+@article{ali2024elmgs,
   abbr = {WACV},
-  title   = {AgroGPT: Efficient Agricultural Vision-Language Model with Expert Tuning},
-  author  = {Awais, Muhammad and Ali Husain Salem Abdulla Alharthi and Amandeep Kumar and Hisham Cholakkal and Rao Muhammad Anwer},
+  title={ELMGS: Enhancing memory and computation scaLability through coMpression for 3D Gaussian Splatting},
+  author={Ali, Muhammad Salman and Bae, Sung-Ho and Tartaglione, Enzo},
   year    = {2025},
   journal = {IEEE/CVF Winter Conference on Applications of Computer Vision},
-  preview={agrogpt25.png},
-  abstract={Significant progress has been made in advancing large multimodal conversational models (LMMs), capitalizing on vast repositories of image-text data available online. Despite this progress, these models often encounter substantial domain gaps, hindering their ability to engage in complex conversations across new domains. Recent efforts have aimed to mitigate this issue, albeit relying on domain-specific image-text data to curate instruction-tuning data. However, many domains, such as agriculture, lack such vision-language data. In this work, we propose an approach to construct instruction-tuning data that harnesses vision-only data for the agriculture domain. We utilize diverse agricultural datasets spanning multiple domains, curate class-specific information, and employ large language models (LLMs) to construct an expert-tuning set, resulting in a 70k expert-tuning dataset called AgroInstruct. Subsequently, we expert-tuned and created AgroGPT, an efficient LMM that can hold complex agriculture-related conversations and provide useful insights. We also develop AgroEvals for evaluation and compare {AgroGPT's} performance with large open and closed-source models. {AgroGPT} excels at identifying fine-grained agricultural concepts, can act as an agriculture expert, and provides helpful information for multimodal agriculture questions. The code, datasets, and models are available at this https URL.}
+  year={2025},
+  selected = {true},
+  pdf={https://openaccess.thecvf.com/content/WACV2025/html/Ali_ELMGS_Enhancing_Memory_and_Computation_Scalability_through_Compression_for_3D_WACV_2025_paper.html},
+  preview={elmgs.png},
+  code = {https://github.com/salmanali96/ELMGS},
+  abstract={3D models have recently been popularized by the potentiality of end-to-end training offered first by Neural Radiance Fields and most recently by 3D Gaussian Splatting models. The latter has the big advantage of naturally providing fast training convergence and high editability. However as the research around these is still in its infancy there is still a gap in the literature regarding the model's scalability. In this work we propose an approach enabling both memory and computation scalability of such models. More specifically we propose an iterative pruning strategy that removes redundant information encoded in the model. We also enhance compressibility for the model by including a differentiable quantization and entropy coding estimator in the optimization strategy. Our results on popular benchmarks showcase the effectiveness of the proposed approach and open the road to the broad deployability of such a solution even on resource-constrained devices.}
 }
 
-@article{Awais.NeurIPS,
-  abbr={NeurIPS},
-  title={MixACM: Mixup-Based Robustness Transfer via Distillation of Activated Channel Maps},
-  author={Awais, Muhammad* and Fengwei, Zhou* and Chuanlong, Xie* and Jiawei, Li and Sung-Ho, Bae and Zhenguo, Li},
-  journal={Conference on Neural Information Processing Systems (NeurIPS)},
-  abstract={Deep neural networks are susceptible to adversarially crafted, small and imperceptible changes in the natural inputs. The most effective defense mechanism against these examples is adversarial training which constructs adversarial examples during training by iterative maximization of loss. The model is then trained to minimize the loss on these constructed examples. This min-max optimization requires more data, larger capacity models, and additional computing resources. It also degrades the standard generalization performance of a model. Can we achieve robustness more efficiently? In this work, we explore this question from the perspective of knowledge transfer. First, we theoretically show the transferability of robustness from an adversarially trained teacher model to a student model with the help of mixup augmentation. Second, we propose a novel robustness transfer method called Mixup-Based Activated Channel Maps (MixACM) Transfer. MixACM transfers robustness from a robust teacher to a student by matching activated channel maps generated without expensive adversarial perturbations. Finally, extensive experiments on multiple datasets and different learning scenarios show our method can transfer robustness while also improving generalization on natural images.},
-  year={2021},
-  month={September},
-  selected={true},
-  pdf={https://proceedings.neurips.cc/paper_files/paper/2021/file/240c945bb72980130446fc2b40fbb8e0-Paper.pdf},
-  webpage={https://awaisrauf.github.io/MixACM},
-  preview={mixacm.png},
-  poster={https://neurips.cc/media/neurips-2021/Slides/27536.pdf},
-  video={https://slideslive.com/38967656/mixacm-mixupbased-robustness-transfer-via-distillation-of-activated-channel-maps}
+@article{spadaro2024alice,
+  abbr = {VCIP},
+  title={ALICE: Adapt your Learnable Image Compression modEl for variable bitrates},
+  author={Spadaro, Gabriele and Ali, Muhammad Salman and Presta, Alberto and Pilo, Giommaria and Bae, Sung-Ho and Giraldo, Jhony H and Fiandrotti, Attilio and Grangetto, Marco and Tartaglione, Enzo},
+  journal={IEEE International Conference on Visual Communications and Image Processing (VCIP)},
+  year={2024},
+  organization={IEEE},
+  selected = {true},
+  pdf={https://ieeexplore.ieee.org/abstract/document/10849832},
+  preview={alice.png},
+  abstract={When training a Learned Image Compression model, the loss function is minimized such that the encoder and the decoder attain a target Rate-Distorsion trade-off. Therefore, a distinct model shall be trained and stored at the transmitter and receiver for each target rate, fostering the quest for efficient variable bitrate compression schemes. This paper proposes plugging Low-Rank Adapters into a transformer-based pre-trained LIC model and training them to meet different target rates. With our method, encoding an image at a variable rate is as simple as training the corresponding adapters and plugging them into the frozen pre-trained model. Our experiments show performance comparable with state-of-the-art fixed-rate LIC models at a fraction of the training and deployment cost. We publicly released the code at https://github.com/EIDOSLAB/ALICE.}
 }
 
-@article{Awais.ICCV21,
-  abbr={ICCV},
-  title={Adversarial Robustness for Unsupervised Domain Adaptation},
-  author={Awais, Muhammad and Fengwei, Zhou and Hang, Xu and Lanqing, Hong and Ping, Luo and Sung-Ho, Bae and Zhenguo, Li},
-  abstract={Extensive Unsupervised Domain Adaptation (UDA) studies have shown great success in practice by learning transferable representations across a labeled source domain and an unlabeled target domain with deep models. However, previous works focus on improving the generalization ability of UDA models on clean examples without considering the adversarial robustness, which is crucial in real-world applications. Conventional adversarial training methods are not suitable for the adversarial robustness on the unlabeled target domain of UDA since they train models with adversarial examples generated by the supervised loss function. In this work, we leverage intermediate representations learned by multiple robust ImageNet models to improve the robustness of UDA models. Our method works by aligning the features of the UDA model with the robust features learned by ImageNet pre-trained models along with domain adaptation training. It utilizes both labeled and unlabeled domains and instills robustness without any adversarial intervention or label requirement during domain adaptation training. Experimental results show that our method significantly improves adversarial robustness compared to the baseline while keeping clean accuracy on various UDA benchmarks.},
-  journal={Internatioanl Conference on Computer Vision (ICCV)},
-  year={2021},
-  month={September},
-  publisher=IEEE,
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  webpage={http://awaisrauf.github.io/robust_uda},
-  html={http://awaisrauf.github.io/robust_uda},
-  pdf={https://arxiv.org/pdf/2109.00946.pdf},
-  selected={true},
-  preview={iccv22.png}
+@article{Ali_2024_BMVC,
+abbr = {BMVC},
+author    = {Ali, Muhammad Salman and Maryam Qamar and Sung-Ho Bae and Enzo Tartaglione},
+title     = {Trimming the Fat: Efficient Compression of 3D Gaussian Splats through Pruning},
+journal = {British Machine Vision Conference 2024, BMVC 2024},
+publisher = {BMVA},
+year      = {2024},
+selected = {true},
+pdf       = {https://bmva-archive.org.uk/bmvc/2024/papers/Paper_358/paper.pdf},
+preview={bmvc.png},
+code = {https://github.com/salmanali96/trimming-the-fat},
+video = {https://bmva-archive.org.uk/bmvc/2024/papers/Paper_358/video.mp4},
+poster = {https://bmva-archive.org.uk/bmvc/2024/papers/Paper_358/poster.pdf}
 }
 
-@article{Awais.TNNLS20,
-  abbr={TNNLS},
-  title={Revisiting Internal Covariant Shift for Batch Normalization},
-  author={Awais, Muhammad and Md. Tauhid Bin, Iqbal and Sung-Ho, Bae},
-  abstract={Despite the success of Batch Normalization (BatchNorm) and a plethora of its variants, the exact reasons for its success are still shady. The original BatchNorm paper explained it as a mechanism that reduces the Internal Covariate Shift (ICS), i.e., the distribution shifts in the input of the layers during training. Recently, some papers manifested skepticism on this hypothesis and provided \textit{alternative explanations} for the success of BatchNorm, such as the applicability of very high learning rates and the ability to smooth the landscape in optimization. In this work, we counter this \ textit {alternative arguments} by demonstrating the importance of reduction in ICS following an empirical approach. We demonstrated various ways to achieve the above-mentioned alternative properties without any performance boost. In this light, we explored the importance of different BatchNorm parameters (i.e., batch statistics, affine transformation parameters) by visualizing their effectiveness in the performance and analyzed their connections with ICS. Afterward, we showed a different normalization scheme that fulfills all alternative explanations except reduction in ICS. Despite having all the alternative properties, we observed its poor performance, which nullifies the alternative claims rather signifies the importance of the ICS reduction. We performed comprehensive experiments on many variants of BatchNorm, finding that all of them similarly reduce ICS.},
-  journal={IEEE Transactions on Neural Networks and Learning Systems (TNNLS)},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={2020},
-  month={October},
-  publisher=IEEE,
-  doi={10.1109/TNNLS.2020.3026784},
-  html={https://ieeexplore.ieee.org/document/9238401},
-  webpage={https://ieeexplore.ieee.org/document/9238401},
-  selected={true},
-  preview={tnnls20.png}
-}
-
-@article{Awais.Arxiv20,
-  abbr={arXiv},
-  title={Adversarial attacks and batch normalization: a batch statistics perspective},
-  author={Awais, Muhammad and Shamshad, Fahad and Bae, Sung-Ho},
-  journal={IEEE Access},
-  volume={11},
-  pages={96449--96459},
+@article{ali2023towards,
+  abbr = {NeurIPS},
+  title={Towards efficient image compression without autoregressive models},
+  author={Ali, Muhammad Salman and Kim, Yeongwoong and Qamar, Maryam and Lim, Sung-Chang and Kim, Donghyun and Zhang, Chaoning and Bae, Sung-Ho and Kim, Hui Yong},
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  pages={7392--7404},
   year={2023},
-  publisher={IEEE},
-  url={https://arxiv.org/abs/2006.11007},
-  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10056932},
-  selected={false},
-  preview={adv_batch.png}
+  selected = {true},
+  pdf={https://proceedings.neurips.cc/paper_files/paper/2023/hash/170dc3e41f2d03e327e04dbab0fccbfb-Abstract-Conference.html},
+  preview={neurips.png},
+  abstract={Recently, learned image compression (LIC) has garnered increasing interest with its rapidly improving performance surpassing conventional codecs. A key ingredient of LIC is a hyperprior-based entropy model, where the underlying joint probability of the latent image features is modeled as a product of Gaussian distributions from each latent element. Since latents from the actual images are not spatially independent, autoregressive (AR) context based entropy models were proposed to handle the discrepancy between the assumed distribution and the actual distribution. Though the AR-based models have proven effective, the computational complexity is significantly increased due to the inherent sequential nature of the algorithm. In this paper, we present a novel alternative to the AR-based approach that can provide a significantly better trade-off between performance and complexity. To minimize the discrepancy, we introduce a correlation loss that forces the latents to be spatially decorrelated and better fitted to the independent probability model. Our correlation loss is proved to act as a general plug-in for the hyperprior (HP) based learned image compression methods. The performance gain from our correlation loss is ‘free’ in terms of computation complexity for both inference time and decoding time. To our knowledge, our method gives the best trade-off between the complexity and performance: combined with the Checkerboard-CM, it attains 90% and when combined with ChARM-CM, it attains 98% of the AR-based BD-Rate gains yet is around 50 times and 30 times faster than AR-based methods respectively}
 }
 
-@article{Awais.JAIHC.19,
-  abbr={JAIHC},
-  title={Leveraging big data for politics: predicting general election of Pakistan using a novel rigged model},
-  author={Awais, Muhammad and Saeed UL, Hassan and Ali, Ahmed},
-  journal={Journal of Ambient Intelligence and Humanized Computing},
-  year={2019},
-  month={July},
-  publisher=Springer,
-  html={https://awaisrauf.github.io/election_prediction},
-  selected={false},
-  preview={election2018.png}
-}
+@inproceedings{kim2021distilling,
+  abbr = {ICCV},
+  title={Distilling global and local logits with densely connected relations},
+  author={Kim, Youmin and Park, Jinbae and Jang, YounHo and Ali, Muhammad Salman and Oh, Tae-Hyun and Bae, Sung-Ho},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={6290--6300},
+  year={2021},
+  selected = {true},
+  pdf={https://openaccess.thecvf.com/content/ICCV2021/html/Kim_Distilling_Global_and_Local_Logits_With_Densely_Connected_Relations_ICCV_2021_paper.html},
+  preview={iccv.png},
+  abstract={In prevalent knowledge distillation, logits in most image recognition models are computed by global average pooling, then used to learn to encode the high-level and task-relevant knowledge. In this work, we solve the limitation of this global logit transfer in this distillation context. We point out that it prevents the transfer of informative spatial information, which provides localized knowledge as well as rich relational information across contexts of an input scene. To exploit the rich spatial information, we propose a simple yet effective logit distillation approach. We add a local spatial pooling layer branch to the penultimate layer, thereby our method extends the standard logit distillation and enables learning of both finely-localized knowledge and holistic representation. Our proposed method shows favorable accuracy improvement against the state-of-the-art methods on several image classification datasets. We show that our distilled students trained on the image classification task can be successfully leveraged for object detection and semantic segmentation tasks; this result demonstrates our method's high transferability.}
 
-@article{Fahad.ICCVw.19,
-  abbr={ICCVw},
-  title={Adaptive Ptych: Leveraging Image Adaptive Generative Priors for Subsampled Fourier Ptychography},
-  author={Fahad, Shamshad and Asif, Hanif and Awais, Muhammad and Farwa, Abbas and Ali, Ahmed},
-  abstract={Recently pretrained generative models have shown promising results for subsampled Fourier Ptychography (FP) in terms of quality of reconstruction for extremely low sampling rates. However, the representation capabilities of these pretrained generators do not capture the full distribution for complex classes of images, such as human faces or numbers, resulting in representation error. Moreover, recent studies have shown that these pretrained generative priors struggle at high-resolution in imaging inverse problems for reconstructing a faithful estimate of the true image, potentially due to mode collapse issue. To mitigate the issue of representation error of pretrained generative models for subsampled FP, we propose to make pretrained generator image adaptive by modifying it to better represent a single image (at test time) that is consistent with the subsampled FP measurements. Our experimental results demonstrate the superiority of the proposed approach over recent subsampled FP methods in terms of both quantitative metrics and visual quality},
-  journal={International Conference on Computer Vision Workshops},
-  year={2019},
-  month={September},
-  publisher=IEEE,
-  pdf={https://openaccess.thecvf.com/content_ICCVW_2019/papers/LCI/Shamshad_Adaptive_Ptych_Leveraging_Image_Adaptive_Generative_Priors_for_Subsampled_Fourier_ICCVW_2019_paper.pdf},
-  selected={false},
-  preview={iccvw2019.png}
 }
-
-@article{Fahad.NIPSw.18,
-  abbr={NIPSw},
-  title={Leveraging Deep Stein's Unbiased Risk Estimator for Unsupervised X-ray Denoising},
-  author={Fahad, Shamshad and Awais, Muhammad and Muhammad, Asim and Ali, Ahmed},
-  journal={Neural Information Processing Systems Workshops},
-  year={2018},
-  html={http://awaisrauf.github.io/xray-denoising},
-  pdf={https://arxiv.org/pdf/1811.12488},
-  selected={false},
-  preview={nipsw18.png}
-}
-
-@article{Asim.ICTD.17,
-  abbr={ICTD},
-  title={Introducing Data mining for Predicting trends in School Education of Pakistan: Preliminary results and Future Directions},
-  author={Muhammad, Asim and Fahad, Shamshad and Awais, Muhammad and Ali, Ahmed},
-  journal={Conference on Information and Communication Technologies and Development },
-  year={2017},
-  html={https://dl.acm.org/doi/10.1145/3136560.3136597},
-  selected={false},
-  preview={ictd17.png}, 
-  pdf={https://www.researchgate.net/publication/321138428_Introducing_Data_mining_for_Predicting_trends_in_School_Education_of_Pakistan_Preliminary_results_and_Future_Directions}
-}
-

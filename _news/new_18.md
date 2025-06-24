@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 
-date: 2023-09-29 16:11:00-0400
+title: surveypaper
+date: 2025-02-28 16:11:00-0400
 inline: true
 selected: true
 ---
 
-Successfully defended my Ph.D. thesis with Outstanding Achievement Award and 2.5M KRW.
+Our survey paper Compression in 3DGS: A Survey of Methods, Trends, and Future Directions is now available on [arxiv](https://arxiv.org/abs/2502.19457).

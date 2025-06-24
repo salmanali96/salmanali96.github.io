@@ -7,8 +7,8 @@ description:
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: iawaisrauf at gmail dot com
+  image: IMG_0580.jpg
+  address: #salmanali896 at gmail dot com
   
 selected_papers: true # includes a list of papers marked as "selected={true}"
 news: true  # includes a list of news items
@@ -54,49 +54,12 @@ social: false  # includes social icons at the bottom of the page
 }
 </style>
 
-I am a postdoc research associate at DERI, Queen Mary University of London, and an R&D Advisor at BetterData, helping them develop tabular foundational models. I have been affiliated with, 
-  <div class="logos-container">
-          <div class="company">
-            <img src="assets/img/mbzuai.png" alt="" class="logo">
-        </div>
-        <div class="company">
-            <img src="assets/img/sonyai.jpg" alt="" class="logo">
-        </div>
-        <div class="company">
-            <img src="assets/img/huawei.png" alt="" class="logo">
-        </div>
-      <div class="company">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW-zl6llLzUFvqZSCz-lFtmypVHGfg9p0s8w&s" alt="Company 4 Logo" class="logo">
-        </div>
-    </div>
+I am a final-year Ph.D. student at Kyung Hee University, South Korea, and successfully defended my dissertation in June 2025. I am currently seeking postdoctoral or research scientist positions.
 
-<!-- <ul>
- <li> RA at <a href="https://mbzuai.ac.ae/"> MBZUAI</a>, among <a href="https://csrankings.org/#/index?ai&vision&mlmining&nlp&world">top 15 AI research institutes</a></li>
-  <li> RA at <a href="https://ai.sony/">Sony AI</a>, Japan
-  </li>
-  <li> RA at AI Theory Group of <a href="http://www.noahlab.com.hk/">Huawei's Noah Ark Lab</a> in Hong Kong
-  </li>
-  <li> Ph.D. Student and RA at <a href="https://sites.google.com/khu.ac.kr/mlvclab/">MLVC Lab</a> in South Korea
-  </li> -->
-  <!-- <li> RA at <a href="http://www.spider.itu.edu.pk">SPIDER Lab</a> and a TA for five grad and undergrad courses, including <a href="https://awaisrauf.github.io/ee512/" class="muted-link">machine learning</a> at <a href="http://www.itu.edu.pk/" class="muted-link">ITU </a> </li> -->
-  <!-- <li> Teaching Assistant for graduate and undergraduate courses, including <a href="https://awaisrauf.github.io/ee512/" class="muted-link">machine learning</a> -->
-<!-- </ul> -->
+I completed my bachelor’s in computer science (BSc) from National University of Sciences and Technology (NUST) Pakistan in 2018 with a distinction (gold medal) That same year, I began my MS–Ph.D. program under [Prof. Sung Ho Bae](https://scholar.google.com/citations?user=EULut5oAAAAJ&hl=en), and have since had the privilege of working with [Prof. Hui Yong Kim](https://scholar.google.com/citations?user=qbiBc50AAAAJ&hl=en), [Prof. Chaoning Zhang](https://scholar.google.com/citations?user=lvhxhyQAAAAJ&hl=en), and [Prof. Enzo Tartaglione](https://scholar.google.com/citations?user=uKuvN64AAAAJ&hl=en).
 
-My research focuses on robust intelligent systems, cross-domain model adaptation, multi-modal foundational models, and the broader applications of AI with societal impact. I have published my research in leading AI and computer vision venues, such as NeurIPS ([#1 in AI](https://scholar.google.com.hk/citations?view_op=top_venues&hl=en&vq=eng_artificialintelligence)), ICCV ([#2 in CV](https://scholar.google.com.hk/citations?view_op=top_venues&hl=en&vq=eng_computervisionpatternrecognition)), ECCV ([#3 in CV](https://scholar.google.com.hk/citations?view_op=top_venues&hl=en&vq=eng_computervisionpatternrecognition)), TPAMI ([IF=20.8](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)), TNNLS ([IF=10.4](https://cis.ieee.org/publications/t-neural-networks-and-learning-systems)).
+My research focuses on image compression and 3D Gaussian Splatting compression. I have published over [20 papers](https://scholar.google.com/citations?user=qbreZUIAAAAJ&hl=en), including in top venues like NeurIPS, ICCV, BMVC, WACV, and about 7 SCIE-indexed journals.
 
 
+Outside of research, I’m an avid cricket enthusiast and a passionate student of history.
 
-<!-- <div class="logos-container">
-        <img src="https://yt3.googleusercontent.com/_q_p7qZP7kmN9_F2Sf26zcUI23ShtGlFZNdGvdOp09ymubZI-q_32m2Sz-LRw5K2zfX2PF__=s900-c-k-c0x00ffffff-no-rj" alt="Company 1 Logo" class="logo">
-        <img src="https://avatars.githubusercontent.com/u/12619994?s=200&v=4" alt="Company 2 Logo" class="logo">
-        <img src="https://pbs.twimg.com/profile_images/1540236845400866817/snSslwU-_400x400.jpg" alt="Company 3 Logo" class="logo">
-        <img src="https://lh6.googleusercontent.com/NwuzzRSYASBEdncLUKgnLhswIGbMgZopmw1--NSy62gXrHAoZEGUmkL6gxECJfJoXWrucXgG4gC2GSxUcobM1zk=w16383" alt="Company 4 Logo" class="logo">
-    </div> -->
-
-
- <!-- Details of my researcher is available here. I regularly contribute as a reviewer for top conferences such as NeurIPS, CVPR, ICLR, ICCV, and AISTATS. -->
- <!-- MICCAI ([#4 in Med. Imaging](https://scholar.google.com.hk/citations?view_op=top_venues&hl=en&vq=med_radiologymedicalimaging)), COLING ([#5 in Comp. Linguistics](https://scholar.google.com.hk/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics)), and WACV ([#9 in CV](https://scholar.google.com.hk/citations?view_op=top_venues&hl=en&vq=eng_computervisionpatternrecognition)). Details of my researcher is available here.   -->
-
-Additionally, I have won a [national-level ml competition](https://propakistani.pk/2018/08/01/first-ever-election-prediction-contest-in-pakistan-concludes/), received a travel grant to attend [AustMS](https://sites.google.com/view/2022-workshop-bridgingmathstcs), and secured [NVIDIA's GPU grant](https://developer.nvidia.com/academic_gpu_seeding) for research.
-
-I enjoy [📖 reading](https://www.goodreads.com/review/list/90419452-awais?page=1&per_page=100&print=true&ref=nav_mybooks&shelf=read&utf8), [🏛 traveling](https://awaisrauf.github.io/travel), 🧑‍💻 coding and 👷🏼‍♂️ building stuff.

@@ -2,17 +2,17 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Awais Rauf # the website title (if blank, full name will be used instead)
-first_name: Awais
+title: Muhammad Salman Ali # the website title (if blank, full name will be used instead)
+first_name: Muhammad Salman
 middle_name:
-last_name: Rauf
-email: iawaisrauf@gmail.com
+last_name: Ali
+email: salmanali896@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal website. 
 footer_text: >
 
 icon: 🤖 # the emoji used as the favicon
-url:  https://awaisrauf.github.io # the base hostname & protocol for your site
+url:  https://salmanali96.github.io # the base hostname & protocol for your site
 baseurl: / # the subpath of your site, e.g. /blog/
 last_updated:  # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -46,18 +46,18 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: awaisrauf # your GitHub user name
+github_username: salmanali96 # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
-linkedin_username: deepawais   # your LinkedIn user name
-scholar_userid: bA-9t1cAAAAJ&hl   # your Google Scholar ID
+linkedin_username: muhammad-salman-ali-046a74125   # your LinkedIn user name
+scholar_userid: qbreZUIAAAAJ&hl   # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
-work_url: https://openreview.net/profile?id=~Muhammad_Awais2 # work page URL
+work_url: # # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
@@ -65,7 +65,8 @@ dblp_url: # your DBLP profile url
 contact_note: >
   Email is the best way to reach me.
 
-google_analytics: G-2PRP5MSJ91   # out your google-analytics code
+google_analytics: G-SE0GC912HX   # out your google-analytics code
+enable_google_analytics: true
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
@@ -149,9 +150,8 @@ github: [metadata]
 # -----------------------------------------------------------------------------
 
 scholar:
-
-  last_name: Awais
-  first_name: [Muhammad, Muhammad*]
+  first_name: ["Muhammad Salman"]
+  last_name: ["Ali"]
 
   style: apa
   locale: en
