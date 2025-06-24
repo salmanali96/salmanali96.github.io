@@ -5,6 +5,11 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: write     # allow pushing to branches
+  pages: write        # optional if you later use actions/configure-pages
+  id-token: write     # optional (OIDC)
+
 jobs:
   jekyll:
     runs-on: ubuntu-latest
