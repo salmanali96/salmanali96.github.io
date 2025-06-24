@@ -54,9 +54,9 @@ social: false  # includes social icons at the bottom of the page
 }
 </style>
 
-I am a final-year Ph.D. student at Kyung Hee University, South Korea, and successfully defended my dissertation in June 2025. I am currently seeking postdoctoral or research scientist positions.
+I am a final-year Ph.D. student at Kyung Hee University, South Korea. I successfully defended my dissertation in June 2025 and currently seeking postdoctoral or research scientist positions.
 
-I completed my bachelor’s in computer science (BSc) from National University of Sciences and Technology (NUST) Pakistan in 2018 with a distinction (gold medal) That same year, I began my MS–Ph.D. program under [Prof. Sung Ho Bae](https://scholar.google.com/citations?user=EULut5oAAAAJ&hl=en), and have since had the privilege of working with [Prof. Hui Yong Kim](https://scholar.google.com/citations?user=qbiBc50AAAAJ&hl=en), [Prof. Chaoning Zhang](https://scholar.google.com/citations?user=lvhxhyQAAAAJ&hl=en), and [Prof. Enzo Tartaglione](https://scholar.google.com/citations?user=uKuvN64AAAAJ&hl=en).
+I completed my bachelor’s in computer science (BSc) from National University of Sciences and Technology (NUST) Pakistan in 2018 with a distinction (gold medal). I began my MS–Ph.D. program under [Prof. Sung Ho Bae](https://scholar.google.com/citations?user=EULut5oAAAAJ&hl=en), and have since had the privilege of working with [Prof. Hui Yong Kim](https://scholar.google.com/citations?user=qbiBc50AAAAJ&hl=en), [Prof. Chaoning Zhang](https://scholar.google.com/citations?user=lvhxhyQAAAAJ&hl=en), and [Prof. Enzo Tartaglione](https://scholar.google.com/citations?user=uKuvN64AAAAJ&hl=en).
 
 My research focuses on image compression and 3D Gaussian Splatting compression. I have published over [20 papers](https://scholar.google.com/citations?user=qbreZUIAAAAJ&hl=en), including in top venues like NeurIPS, ICCV, BMVC, WACV, and about 7 SCIE-indexed journals.
 
