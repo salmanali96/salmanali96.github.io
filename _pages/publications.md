@@ -1,38 +1,58 @@
-<!-- ---
+---
 layout: page
-permalink: /research/
-title: 🔬research
-importance: 0
-description: 
+permalink: /publications/
+title: publications
+importance: 3
+description:
 nav: true
 ---
-<div class="publications">
-<div markdown="1">
-My research focuses on robust and safe AI systems, multi-modal learning, and the application of AI in non-CS domains.
-My research has been published in leading AI and computer vision venues, including NeurIPS ([#1 in AI](https://scholar.google.com.hk/citations?view_op=top_venues&hl=en&vq=eng_artificialintelligence)), ICCV ([#2 in CV](https://scholar.google.com.hk/citations?view_op=top_venues&hl=en&vq=eng_computervisionpatternrecognition)), ECCV ([#3 in CV](https://scholar.google.com.hk/citations?view_op=top_venues&hl=en&vq=eng_computervisionpatternrecognition)), TPAMI ([IF=20.8](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)), TNNLS ([IF=10.4](https://cis.ieee.org/publications/t-neural-networks-and-learning-systems)), MICCAI ([#4 in Med. Imaging](https://scholar.google.com.hk/citations?view_op=top_venues&hl=en&vq=med_radiologymedicalimaging)), COLING ([#5 in Comp. Linguistics](https://scholar.google.com.hk/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics)), ICASSP ([#3 in Signal Processing](https://scholar.google.com.hk/citations?view_op=top_venues&hl=en&vq=eng_signalprocessing)), and WACV ([#9 in CV](https://scholar.google.com.hk/citations?view_op=top_venues&hl=en&vq=eng_computervisionpatternrecognition)). For more details, please visit my <a href="https://scholar.google.com.hk/citations?user=bA-9t1cAAAAJ&hl=en"><u>Google Scholar</u></a> or <a href="https://openreview.net/profile?id=~Muhammad_Awais2"> <u>OpenReview</u> </a> page.
 
-Moreover, I regularly contribute as a reviewer in top AI venues, including NeurIPS, CVPR, ICLR, ICCV, ECCV, AISTATS, WACV, BMVC, and CoLLAs. I have served on the program committee for various workshops, such as New in ML at NeurIP 2023; Socially Responsible Machine Learning at ICLR 2022; The Art of Robustness: Devil and Angel in Adversarial Machine at CVPR 2022; Socially Responsible Machine Learning at ICML 2021; The 2nd Workshop on Adversarial Robustness In the Real World at ICCV 2021; Workshop on Security and Safety in Machine Learning Systems at ICLR 2021; Adversarial Robustness in the Real World (AROW) at ECCV 2020.
+<div class="publications-page">
+  <section class="pub-hero">
+    <p>
+      My research focuses on learned image compression, 3D Gaussian Splatting compression, and enhancing the efficiency of vision systems.
+      I am interested in bridging the advances of computer vision with practical, scalable pipelines that enable high-quality and efficient immersive AI applications.
+    </p>
+    <ul class="pub-focus-list">
+      <li>Efficient 3D scene representations & compression</li>
+      <li>Learned image & video compression</li>
+      <li>Real-time & resource-efficient vision systems</li>
+      <li>Scalable & deployable AI for immersive applications</li>
+    </ul>
+    <div class="pub-hero__actions">
+      <a class="pub-action primary" href="https://scholar.google.com/citations?user=qbreZUIAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>
+      <a class="pub-action" href="#all">Jump to publications</a>
+    </div>
+  </section>
+
+  <nav class="pub-section-nav" aria-label="Publications navigation">
+    <a href="#all">All publications</a>
+  </nav>
+
+  <div class="pub-highlight-grid">
+    <article class="pub-highlight">
+      <p class="pub-highlight__eyebrow">Track record</p>
+      <h3>20+ peer-reviewed papers</h3>
+      <p>Published across NeurIPS, ICCV, AAAI, CVPR, BMVC, WACV, IEEE Transactions, and SCIE-indexed journals.</p>
+    </article>
+    <article class="pub-highlight">
+      <p class="pub-highlight__eyebrow">Core themes</p>
+      <h3>Compression-centric AI</h3>
+      <p>Neural codecs and splatting techniques that reduce memory/compute while preserving fidelity.</p>
+    </article>
+    <article class="pub-highlight">
+      <p class="pub-highlight__eyebrow">Service</p>
+      <h3>Active reviewer</h3>
+      <p>Served for NeurIPS, CVPR, ICCV, ECCV, ICLR, BMVC, WACV, and IEEE Transactions.</p>
+    </article>
+  </div>
+
+  <section class="pub-section" id="all">
+    <div class="pub-section__header">
+      <h2>All publications</h2>
+    </div>
+    <div class="publications publications--archive">
+      {% bibliography -f papers --group_by year --group_order descending %}
+    </div>
+  </section>
 </div>
-
-<h2> Selected Publications </h2>
-
-{% bibliography -f papers  %}
-
-</div>
-
-<!-- <p>
-<br>
-Robust and Safe AI: This includes my work on robust learning for distribution shifts and adversarial attacks.
-    <span class='robustness'> Adversarial Robustness </span>:
-    This is xyxz
-    <br>
-    <span class='robustness'> Out of Distribution Robustness  </span>:
-    This is xyxz
-    <br>
-    <span class='robustness'> Robustness to Distribution Shifts </span>:
-    This is xyxz
-
-Multi-modal Learning: 
-
-Applications of AI:
-</p> --> -->

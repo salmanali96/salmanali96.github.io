@@ -20,7 +20,9 @@
     <abbr class="badge text-bg-secondary">{{entry.abbr}}</abbr> 
     {% endif %}
   {% endif %}
-  <img class="paper-image" src="/assets/img/publication_preview/{{entry.preview}}" alt="Paper Image">
+  {% if entry.preview %}
+  <img class="paper-image" src="/assets/img/publication_preview/{{entry.preview}}" alt="{{ entry.title }} preview image">
+  {% endif %}
 
   </div>
 
