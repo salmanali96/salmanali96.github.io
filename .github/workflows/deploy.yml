@@ -1,4 +1,3 @@
-# .github/workflows/deploy.yml
 name: Build and Deploy Jekyll site
 
 on:
@@ -6,68 +5,42 @@ on:
     branches: [main]
 
 permissions:
-  contents: write     # allow pushing to branches
-  pages: write        # optional if you later use actions/configure-pages
-  id-token: write     # optional (OIDC)
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
-  jekyll:
+  build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Set up Ruby
+      - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.1
-
-      - name: Install dependencies
-        run: |
-          gem install bundler
-          bundle install
+          ruby-version: '3.1'
+          bundler-cache: true
 
       - name: Build site with Jekyll
-        run: bundle exec jekyll build
+        run: bundle exec jekyll build --destination _site
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+          path: _site
 
-# on:
-#   push:
-#     branches:
-#       - master
-#       - main
-#   pull_request:
-#     branches:
-#       - master
-#       - main
-#   workflow_dispatch:
-
-# permissions:
-#   contents: write
-
-# jobs:
-#   deploy:
-#     runs-on: ubuntu-latest
-#     steps:
-#     - name: Checkout 🛎️
-#       uses: actions/checkout@v3
-#     - name: Setup Ruby
-#       uses: ruby/setup-ruby@v1
-#       with:
-#         ruby-version: '3.2.1'
-#         bundler-cache: true
-#     - name: Install and Build 🔧
-#       run: |
-#         npm install -g mermaid.cli
-#         bundle exec jekyll build
-#     - name: Deploy 🚀
-#       if: github.event_name != 'pull_request'
-#       uses: JamesIves/github-pages-deploy-action@v4
-#       with:
-#         folder: _site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
