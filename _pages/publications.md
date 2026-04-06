@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-importance: 3
+importance: 2
 description:
 nav: true
 ---
