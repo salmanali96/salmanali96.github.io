@@ -7,7 +7,7 @@ description:
 
 profile:
   align: right
-  image: ghibli_gemini.png
+  image: Profile_3.jpg
   address: #salmanali896 at gmail dot com
   
 selected_papers: true # includes a list of papers marked as "selected={true}"
